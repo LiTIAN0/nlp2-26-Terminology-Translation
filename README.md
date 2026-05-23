@@ -14,7 +14,7 @@ Our findings reveal an **alignment tax**: fine-tuning improves general translati
 
 ## Repository Structure
 
-* `nlp2.ipynb`: The complete Jupyter Notebook containing the translation pipeline, data augmentation, LoRA fine-tuning, and multi-step inference code.
+* `nlp2.ipynb`: The complete Jupyter Notebook containing the translation pipeline, data augmentation, LoRA fine-tuning, and multi-step inference code. This Notebook is developed in Google Colab. GitHub may not render it correctly due to widget metadata compatibility issues, but the notebook itself is fully functional.
 * `translations/`: Contains the 12 generated translation files (JSONL format) across the three evaluation modes (Proper, Random, NoTerm) for all tested systems.
 * `track1_score_dict.json`: The final evaluation dictionary containing ChrF++ and Terminology Success Rates used for our report visualizations.
 * `track1_score_dict_full.json`: The raw evaluation output including the consistency metrics.
