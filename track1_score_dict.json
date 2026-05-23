@@ -1,0 +1,100 @@
+{
+    "de": {
+        "noterm": {
+            "RQ1_Base": {
+                "bleu4": 12.616072543045629,
+                "chrf2++": 38.64058108177022,
+                "proper_term_success_rate": 0.2430939226519337,
+                "random_term_success_rate": 0.4504065040650406
+            },
+            "RQ3_SFT": {
+                "bleu4": 19.443552272485185,
+                "chrf2++": 46.52357142303467,
+                "proper_term_success_rate": 0.27992633517495397,
+                "random_term_success_rate": 0.5235772357723577
+            },
+            "RQ4_MultiStep_Base": {
+                "bleu4": 12.864485757364138,
+                "chrf2++": 40.569996529626614,
+                "proper_term_success_rate": 0.26887661141804786,
+                "random_term_success_rate": 0.47479674796747967
+            },
+            "RQ4_MultiStep_SFT": {
+                "bleu4": 19.252882692356334,
+                "chrf2++": 45.95111752873771,
+                "proper_term_success_rate": 0.289134438305709,
+                "random_term_success_rate": 0.5252032520325203
+            },
+            "tower": {
+                "bleu4": 36.2801537421086,
+                "chrf2++": 61.1584305183955,
+                "proper_term_success_rate": 0.39594843462246776,
+                "random_term_success_rate": 0.6878048780487804
+            }
+        },
+        "proper": {
+            "RQ1_Base": {
+                "bleu4": 15.021254806160389,
+                "chrf2++": 45.755807955695715,
+                "proper_term_success_rate": 0.7587476979742173,
+                "random_term_success_rate": 0.48292682926829267
+            },
+            "RQ3_SFT": {
+                "bleu4": 21.547422875331208,
+                "chrf2++": 49.74393426995235,
+                "proper_term_success_rate": 0.5303867403314917,
+                "random_term_success_rate": 0.5300813008130081
+            },
+            "RQ4_MultiStep_Base": {
+                "bleu4": 12.629060115167192,
+                "chrf2++": 43.31514914136411,
+                "proper_term_success_rate": 0.8158379373848987,
+                "random_term_success_rate": 0.4764227642276423
+            },
+            "RQ4_MultiStep_SFT": {
+                "bleu4": 16.566097502154832,
+                "chrf2++": 44.61021571224394,
+                "proper_term_success_rate": 0.5046040515653776,
+                "random_term_success_rate": 0.47479674796747967
+            },
+            "tower": {
+                "bleu4": 39.56244741017893,
+                "chrf2++": 65.9250257555877,
+                "proper_term_success_rate": 0.9484346224677717,
+                "random_term_success_rate": 0.7284552845528456
+            }
+        },
+        "random": {
+            "RQ1_Base": {
+                "bleu4": 14.607151550651917,
+                "chrf2++": 44.31849516553052,
+                "proper_term_success_rate": 0.27808471454880296,
+                "random_term_success_rate": 0.832520325203252
+            },
+            "RQ3_SFT": {
+                "bleu4": 20.757435928789373,
+                "chrf2++": 48.15729323661935,
+                "proper_term_success_rate": 0.30386740331491713,
+                "random_term_success_rate": 0.6520325203252032
+            },
+            "RQ4_MultiStep_Base": {
+                "bleu4": 12.747073929710565,
+                "chrf2++": 42.326219832042746,
+                "proper_term_success_rate": 0.26519337016574585,
+                "random_term_success_rate": 0.8308943089430895
+            },
+            "RQ4_MultiStep_SFT": {
+                "bleu4": 16.963772186207486,
+                "chrf2++": 44.30707834252571,
+                "proper_term_success_rate": 0.27992633517495397,
+                "random_term_success_rate": 0.6455284552845528
+            },
+            "tower": {
+                "bleu4": 36.45143537499676,
+                "chrf2++": 63.00985047676985,
+                "proper_term_success_rate": 0.4567219152854512,
+                "random_term_success_rate": 0.943089430894309
+            }
+        }
+    }
+}
